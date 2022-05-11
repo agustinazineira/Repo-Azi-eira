@@ -1,20 +1,15 @@
-.texto {
-  background-color: linen;
+.pie {
+  background-color: goldenrod;
+  color: white;
 }
 
-.texto h2 {
-  font-size: 30px;
-  padding: 10px;
+.imgHab {
+  margin-top: 10px;
 }
 
-.texto p {
-  font-size: 24px;
-  padding: 10px;
-}
-
-.letraNav {
-  color: goldenrod !important;
-  font-size: 26px !important;
+.imgHab:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .logo {
@@ -51,17 +46,30 @@
   }
 }
 
-.imgHab {
-  margin-top: 10px;
+.letraNav {
+  color: goldenrod !important;
+  font-size: 26px !important;
 }
 
-.imgHab:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.texto, .textoNos, .textoAct {
+  background-color: linen;
 }
 
-.pie {
-  background-color: goldenrod;
-  color: white;
+.texto h2, .textoNos h2, .textoAct h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.texto p, .textoNos p, .textoAct p {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.textoNos {
+  border-radius: 10px;
+}
+
+.textoAct {
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

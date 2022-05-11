@@ -10,3 +10,11 @@
         padding: 10px;
     }
 }
+.textoNos{
+    @extend .texto;
+    border-radius: 10px;
+}
+.textoAct{
+    @extend .texto;
+    border-radius: 10px;
+}

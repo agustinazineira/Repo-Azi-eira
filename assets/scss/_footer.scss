@@ -1,4 +1,7 @@
+@mixin color($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+}
 .pie{
-    background-color: $colorFooter;
-    color: $letra1;
+    @include color($colorFooter, map-get($colorLetras, blanco) )
 }

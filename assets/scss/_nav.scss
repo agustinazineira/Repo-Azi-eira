@@ -1,4 +1,4 @@
 .letraNav{
-    color: $letra2 !important;
+    color: map-get($colorLetras , dorado ) !important;
     font-size: 26px !important;
 }
